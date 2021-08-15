@@ -1,0 +1,47 @@
+
+/* Global vars */
+:root {
+  /* Fonts */
+  --font-h: 'blood_crowregular';
+  --font-buttons: 'pieces_of_eightregular';
+
+  /* Colors */
+  --section-bgcolor: rgba(220, 220, 220, 0.7);
+  --h1-color: rgb(38, 15, 77);
+  /* --header-text-shadow: rgb(220, 200, 200);
+  --nav-background: linear-gradient(90deg, rgba(220,220,220,1) 0%, rgba(255,255,255,1) 40%, rgba(255,255,255,1) 60%, rgba(220,220,220,1) 100%); */
+}
+
+
+/* Fonts */
+@font-face {
+  font-family: 'blood_crowregular';
+  src: url('./assets/fonts/bloodcrow-webfont.woff2') format('woff2'),
+       url('./assets/fonts/bloodcrow-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'pieces_of_eightregular';
+  src: url('./assets/fonts/pieces_of_eight-webfont.woff2') format('woff2'),
+       url('./assets/fonts/pieces_of_eight-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+
+
+
+* {
+  /* border: 1px solid black; */
+}
+
+html {
+  min-width: 750px;
+  background: url("./assets/img/sea_cave_cthulhu.jpg") center no-repeat fixed, linear-gradient(to bottom, #3c4383, #000000);
+}
+h1 {
+	font-family: var(--font-h);
+}
+
